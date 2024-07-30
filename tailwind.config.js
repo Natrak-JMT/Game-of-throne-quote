@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     screens: {
+      'sm': '576px',
+      // => @media (min-width: 576px) { ... }
+      'xs': '475px',
+      // ...defaultTheme.screens,
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }
 
